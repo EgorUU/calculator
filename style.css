@@ -1,0 +1,63 @@
+.management {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container {
+    width: 300px;
+    height: 535px;
+    background-color: #5b4d4d;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.management button {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 3px solid rgb(42, 40, 40);
+    border-radius: 10px;
+    font-size: 25px;
+}
+.management {
+    width: 70%;
+    margin: 0 auto;
+    transform: translateY(-10px);
+}
+.calculator {
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 99vw;
+    height: 66vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction input{ 
+    width: 69%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.3em;
+    border: 3px solid rgb(42, 40, 40);
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+}
+.management button:nth-child(1) {
+    width: 90%;
+}
+body {
+    background: linear-gradient(to right, #c02425, #f0cb35);
+}
